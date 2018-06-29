@@ -25,7 +25,12 @@ const ITopToolbarProps = {
     disabled: PropTypes.bool.isRequired
   },
   defaults: {
-    currentPath: ['My Files']
+    currentPath: [
+      {
+        name: 'My Files',
+        id: ''
+      }
+    ]
   }
 };
 
