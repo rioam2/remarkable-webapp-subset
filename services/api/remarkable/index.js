@@ -1,3 +1,11 @@
+import Zip from 'node-zip';
+import corsfetch from '../corsfetch';
+import uuidv4 from '../../uuidv4';
+import database from '../../firebase-redux/actions/database';
+import store from '../../firebase-redux/store';
+import firebaseDB from '../../firebase-redux/firebase';
+import storage from '../../firebase-redux/fireStorage';
+
 // This file is truncated from its original form and contains a couple of methods for remarkableAPI interfacing with the web application:
 
 // REMARKABLE API ENDPOINT DEFINITIONS:
